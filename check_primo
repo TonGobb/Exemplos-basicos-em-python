@@ -1,0 +1,12 @@
+n = int(input('digite um número inteiro: '))
+comp = n
+while comp > 2:
+    if (n % (comp - 1)) == 0:
+        print('não primo')
+        comp = 0
+    else:
+        comp = comp - 1
+if 2 <= n <= 3 or comp == 2:
+    print('primo')
+elif 0 <= n <= 1:
+    print('não primo')
