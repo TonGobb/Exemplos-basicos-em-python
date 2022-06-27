@@ -1,0 +1,13 @@
+n = int(input('digite um número: '))
+mult = 10
+cont = n
+while n != 0:
+    if ((n//mult) % mult) != n % mult:
+        n = n//10
+        cont = n
+    else:
+        print('sim')
+        n = 0
+        cont = n + 1
+if cont == n:
+    print('não')
