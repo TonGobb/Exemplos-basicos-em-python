@@ -1,3 +1,5 @@
+"""Soma dígitos de um número qualquer n usando apenas comando while"""
+
 n = int(input('digite um número: '))
 mult = 10
 soma = 0
