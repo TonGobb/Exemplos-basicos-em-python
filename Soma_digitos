@@ -1,0 +1,8 @@
+n = int(input('digite um número: '))
+mult = 10
+soma = 0
+while n != 0:
+    soma = soma + (n % mult)
+    n = n // mult
+
+print(soma)
